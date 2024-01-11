@@ -1,0 +1,32 @@
+<form [formGroup]="updateForm" (ngSubmit)="updateProduct()">
+    <div class="form-group">
+      <label >Name</label>
+      <input type="text" class="form-control" formControlName="name" [(ngModel)]="product.name" value={{product.name}}>
+    </div>
+    <div class="form-group">
+        <label >Brand</label>
+        <input type="text" class="form-control" formControlName="brand" [(ngModel)]="product.brand"  value={{product.brand}}>
+      </div>
+      <div class="form-group">
+        <label >Model</label>
+        <input type="text" class="form-control" formControlName="model" [(ngModel)]="product.model" value={{product.model}}>
+      </div>
+      <div class="form-group">
+        <label >Description</label>
+        <input type="text" class="form-control" formControlName="description" [(ngModel)]="product.description" value={{product.description}}>
+      </div>
+      <div class="form-group">
+        <label >Price</label>
+        <input type="text" class="form-control" formControlName="price" [(ngModel)]="product.price" value={{product.price}}>
+      </div>
+      <div class="form-group">
+        <label >Quantity</label>
+        <input type="text" class="form-control" formControlName="quantity" [(ngModel)]="product.quantity" value={{product.quantity}}>
+      </div>
+      <div class="form-group">
+        <label >Image</label>
+        <input type="file" class="form-control" formControlName="image" [(ngModel)]="product.image" value={{product.image}}>
+      </div>
+      
+    <button type="submit" class="btn btn-dark">update</button>
+  </form>

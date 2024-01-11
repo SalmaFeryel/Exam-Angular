@@ -1,0 +1,35 @@
+<div class="dialog">
+    <form [formGroup]="addForm" (ngSubmit)="addProduct()">
+        <button [ngStyle]="{'float' : 'right'}" (click)="this.service.showAddModal=false" type="button" class="btn-close" aria-label="Close"></button>
+        <div class="form-group">
+          <label >Name</label>
+          <input type="text" class="form-control" formControlName="name">
+        </div>
+        <div class="form-group">
+            <label >Brand</label>
+            <input type="text" class="form-control" formControlName="brand">
+          </div>
+          <div class="form-group">
+            <label >Model</label>
+            <input type="text" class="form-control" formControlName="model">
+          </div>
+          <div class="form-group">
+            <label >Description</label>
+            <input type="text" class="form-control" formControlName="description">
+          </div>
+          <div class="form-group">
+            <label >Price</label>
+            <input type="text" class="form-control" formControlName="price">
+          </div>
+          <div class="form-group">
+            <label >Quantity</label>
+            <input type="text" class="form-control" formControlName="quantity">
+          </div>
+          <div class="form-group">
+            <label >Image</label>
+            <input type="file" class="form-control" formControlName="image">
+          </div>
+    
+        <button type="submit" class="btn btn-dark">Add</button>
+      </form>
+    </div>

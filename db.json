@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "PANTALON DE RANDONNÉE",
+      "brand": "QUECHUA",
+      "model": "NH500 REGULAR - HOMME",
+      "description": "Nos concepteurs randonneurs ont conçu ce pantalon NH500 Regular pour vos randonnées régulières en plaine, forêt ou littoral.",
+      "price": 119,
+      "quantity": 34,
+      "image": "pantalon-de-randonnee-nature-nh500-regular-homme.jpg"
+    },
+    {
+      "id": 2,
+      "name": "SAC À DOS DE RANDONNÉE 23L",
+      "brand": "QUECHUA",
+      "model": "NH ESCAPE 500 ROLLTOP",
+      "description": "Nous avons conçu ce sac de randonnée NH Escape 500 rolltop 23 L à rabat pour vous accompagner durant vos randonnées et au quotidien (format valise cabine).",
+      "price": 169,
+      "quantity": "20",
+      "image": "sac-a-dos-de-randonnee-23l-nh-escape-500-rolltop.jpg"
+    },
+    {
+      "id": 3,
+      "name": "DOUDOUNE EN DUVET DE TREK MONTAGNE",
+      "brand": "FORCLAZ",
+      "model": "MT500 -10 °C - HOMME",
+      "description": "Doudoune en duvet certifié RDS conçue pour vous permettre de trekker en montagne par temps froid jusque -10 °C en activité et 0 °C en statique.",
+      "price": 290,
+      "quantity": 19,
+      "image": "doudoune-en-duvet-de-trek-montagne-confort-10c-trek-500-noir-homme.jpg"
+    },
+    {
+      "id": 4,
+      "name": "VESTE HIVER IMPERMEABLE DE RANDONNEE",
+      "brand": "QUECHUA",
+      "model": "MT500 15 °C - FEMME",
+      "description": "Basées au pied du Mont Blanc, nos équipes de développement ont conçu cette veste chaude et imperméable pour vos randonnées hivernales jusqu'à -10°C.",
+      "price": 240,
+      "quantity": 7,
+      "image": "veste-chaude-impermeable-de-randonnee-sh100-x-warm-femme.jpg"
+    },
+    {
+      "id": 5,
+      "name": "CHAUSSURES TREKKING CUIR IMPERMÉABLES",
+      "brand": "FORCLAZ",
+      "model": "MT100 SHARK - HOMME",
+      "description": "Ces chaussures imperméables permettent d'évoluer sur les sentiers faciles avec un bon maintien et confort de marche.",
+      "price": 389,
+      "quantity": 14,
+      "image": "chaussures-de-trekking-montagne-trek100-homme.jpg"
+    },
+    {
+      "id": 6,
+      "name": "CHAUSSURES DE RANDONNÉE IMPERMÉABLES",
+      "brand": "QUECHUA",
+      "model": "NH100 MID WP - FEMME",
+      "description": "Nos concepteurs randonneurs ont conçu ces chaussures imperméables NH150 Mid WP pour vos randonnées occasionnelles en plaine ou en forêt, par temps pluvieux.",
+      "price": 195,
+      "quantity": 18,
+      "image": "chaussures-impermeables-de-randonnee-nature-nh150-mid-wp-femme.jpg"
+    }
+  ]
+}
